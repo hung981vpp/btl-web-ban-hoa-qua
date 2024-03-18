@@ -149,6 +149,10 @@ main{
     color: #333;
     font-weight: 600;
   }
+ main .login button a{
+    text-decoration: none;
+    color: rgb(46, 124, 46);
+  }
   main .login .register-link{
     font-size: 14.5px;
     text-align: center;
