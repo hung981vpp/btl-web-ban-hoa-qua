@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#wrapper {
+    width: 100%;
+}
+#header {
+    width: 100%;
+    padding:20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    text-transform: uppercase;
+    background-color: white;  
+    
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#menu {
+    list-style:none;
+    display: flex;
+}
+
+#menu .item {
+    margin:0px 25px;
+}
+
+#menu .item a {
+    color:rgb(46, 124, 46); 
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu .item a:hover{
+    color:#ff9b3d;
+}
+#sreach form input{
+    width: 250px;
+    height: 30px;
+    color: black;
+    border: 3px solid rgb(46, 124, 46); 
+    border-radius: 5px;
+}
+#sreach form button{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgb(46, 124, 46); 
+    border: 3px solid rgb(46, 124, 46); 
+    border-radius: 5px;
+}
+#sreach form button:hover{
+    background-color: #ff9b3d;
+    border: #ff9b3d;
+}
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+   
+}
+#actions .item button {
+    border: none;
+    background: none;
+    
+}
+#actions .item button a {
+     color: rgb(46, 124, 46);
+}
+#actions .item button a:hover{
+    color: #ff9b3d;
+}
+.main{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.main p a{
+    color: rgb(46, 124, 46);
+    font-style: normal;
+}
+.info{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+.info h1{
+    font-size: 60px;
+}
+#footer {
+    width: 100%;
+    background:rgb(0,0,0,0.79);
+    height: 370px;
+    margin-top:250px;
+    padding:0px 63px;
+    padding-top:57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .box {
+    width: 250px;
+    color:#fff;
+}
+
+#footer .box .quick-menu {
+    margin-top:40px;
+
+}
+
+
+#footer .box .quick-menu .item{
+    margin-bottom:12px;
+
+}
+#footer .box .quick-menu ,.item a{
+    color:#fff;
+    text-decoration: none;
+}
+#footer .box ul li{
+    list-style-type: none;
+    margin-top: 10px;
+}
