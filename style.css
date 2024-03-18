@@ -8,7 +8,6 @@
 }
 
 #wrapper {
-    /* Kích thước màn hình là 1280 x 720 */
     width: 100%;
 }
 #header {
@@ -87,12 +86,26 @@ header{
 #banner {
     width: 100%;
     background-image :url("assets/banner.png");
-    height: 463px;
+    height: 400px;
     margin-top: 90px;
     display: flex;
     padding:0px 133px;
-    
-
+}
+.info ul li{
+    display: flex;
+    float: left;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.infodetails{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(46, 124, 46);
+}
+.infodetails p{
+    font-size: 15px;
+    color: black;
 }
 #wp-products {
     padding-top:70px;
@@ -298,24 +311,7 @@ header{
     color:#fff;
     text-decoration: none;
 }
-#footer .box form input {
-    width: 294px;
-    height: 42px;
-    background:transparent;
-    padding-left:20px;
-    color:#fff;
-    margin-top:30px;
-}
-#footer .box form .text input{
+#footer .box ul li{
+    list-style-type: none;
     margin-top: 10px;
-    height: 100px;
-}
-
-#footer .box form button {
-    background:#362f2f;
-    box-shadow: 5px 5px 4px rgba(0,0,0.25);
-    width: 163px;
-    height: 38px;
-    margin-top:29px;
-    color:#fff;
 }
